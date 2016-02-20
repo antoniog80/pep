@@ -1,1 +1,0 @@
-ProtocolloAction.temporary.get('workingLine')=='WORKACCIDENT'

@@ -1,0 +1,14 @@
+CriteriaImpl(com.phi.entities.baseEntity.Protocollo:this[Subcriteria(statusCode:StatusCode)][serviceDeliveryLocation.internalId is null or serviceDeliveryLocation.internalId in (2, 11, 12, 14, 15, 13, 16, 17, 18, 21, 22), StatusCode.code=new or StatusCode.code=held or StatusCode.code=active, StatusCode.code=new or StatusCode.code=held or StatusCode.code=active, StatusCode.code=new or StatusCode.code=held or StatusCode.code=active, StatusCode.code=new or StatusCode.code=held or StatusCode.code=active or StatusCode.code=completed or StatusCode.code=cancelled or StatusCode.code=nullified, StatusCode.code=new or StatusCode.code=held or StatusCode.code=active or StatusCode.code=completed or StatusCode.code=cancelled or StatusCode.code=nullified])
+
+
+CriteriaImpl(com.phi.entities.baseEntity.Protocollo:this[Subcriteria(statusCode:StatusCode)][serviceDeliveryLocation.internalId is null or serviceDeliveryLocation.internalId in (2, 11, 12, 14, 15, 13, 16, 17, 18, 21, 22), StatusCode.code=new or StatusCode.code=held or StatusCode.code=active, StatusCode.code=new or StatusCode.code=held or StatusCode.code=active or StatusCode.code=nullified])
+
+CriteriaImpl(com.phi.entities.baseEntity.Protocollo:this[Subcriteria(statusCode:StatusCode)][serviceDeliveryLocation.internalId is null or serviceDeliveryLocation.internalId in (2, 11, 12, 14, 15, 13, 16, 17, 18, 21, 22), StatusCode.code=new or StatusCode.code=held or StatusCode.code=active, StatusCode.code=new or StatusCode.code=held or StatusCode.code=active or StatusCode.code=nullified])
+
+CriteriaImpl(com.phi.entities.baseEntity.Protocollo:this[][serviceDeliveryLocation.internalId is null or serviceDeliveryLocation.internalId in (2, 11, 12, 14, 15, 13, 16, 17, 18, 21, 22), StatusCode.code=new or StatusCode.code=held or StatusCode.code=active, StatusCode.code=new or StatusCode.code=held or StatusCode.code=active or StatusCode.code=nullified])
+
+CriteriaImpl(com.phi.entities.baseEntity.Protocollo:this[][serviceDeliveryLocation.internalId is null or serviceDeliveryLocation.internalId in (2, 11, 12, 14, 15, 13, 16, 17, 18, 21, 22), StatusCode.code=new or StatusCode.code=held or StatusCode.code=active, StatusCode.code=new or StatusCode.code=held or StatusCode.code=active or StatusCode.code=nullified])
+
+status.add(vocabularies.getCodeValueCsDomainCode("STATUS", "GENERIC","new"));
+			status.add(vocabularies.getCodeValueCsDomainCode("STATUS", "GENERIC","held"));
+status.add(vocabularies.getCodeValueCsDomainCode("STATUS", "GENERIC","active"));

@@ -5,7 +5,7 @@ var GooglePlaces = require('google-places');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-	res.send('SOOOOOCAAAAA!!!!');
+	res.send('SUCA!');
 });
 
 module.exports = router;
